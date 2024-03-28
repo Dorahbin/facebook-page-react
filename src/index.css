@@ -1,0 +1,51 @@
+main {
+  background: #f0f2f5;
+  min-height: 37rem;
+}
+
+img {
+  width: 50%;
+  margin-left: -1.3rem;
+}
+
+.create-btn {
+  background-color: #36a420;
+}
+
+.hover-effect {
+  text-decoration: none;
+  color: #1c1e21;
+}
+
+.hover-effect:hover {
+  text-decoration: underline;
+}
+
+.create-page {
+  color: #1c1e21;
+}
+
+h2 {
+  color: #1c1e21;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media (max-width: 425px) {
+  footer {
+    /* visibility: hidden; */
+    background: none;
+    display: none;
+    /* overflow-y: hidden; */
+  }
+
+  main{
+    height: 100vh;
+  }
+
+  img {
+    margin-left: -1rem;
+  }
+}
